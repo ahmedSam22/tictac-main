@@ -1,0 +1,33 @@
+.field {
+    width: 100%;
+    text-align: center;
+}
+.field p{
+    color: white;
+}
+.gamefield{
+    max-width: 300px;
+    margin-top: 15px;
+}
+.gameboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.subfield {
+    border: 1px solid white;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+
+.playertwo{
+    background-color: red;
+}
+.playerone{
+    background-color: green;
+}
+.playernames{
+    display: flexbox;
+    justify-content: space-between;
+}
